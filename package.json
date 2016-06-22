@@ -1,0 +1,22 @@
+{
+  "name": "pirate-bartender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chieakiba/pirate-bartender.git"
+  },
+  "author": "Chie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chieakiba/pirate-bartender/issues"
+  },
+  "homepage": "https://github.com/chieakiba/pirate-bartender#readme",
+  "dependencies": {
+    "jquery": "^3.0.0"
+  }
+}
