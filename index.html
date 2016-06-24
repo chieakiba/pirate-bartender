@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <title>Pirate Bartender</title>
+    <link rel='stylesheet' href='css/normalize.css'>
+    <link rel='stylesheet' href='css/style.css'>
+    <link href='https://fonts.googleapis.com/css?family=Pirata+One|Tillana' rel='stylesheet'>
 </head>
+
 <body>
-	
+    <h1>Welcome to Davy Jone's Locker</h1>
+    <h2>Tell me what kind of drink ye want!</h2>
+    <section class='bartender-questions'>
+        <h3>Do ye like yer drinks strong?</h3>
+        <ul class='drinkType'>
+            <li>Rum</li>
+            <li>Vodka</li>
+            <li>Gin</li>
+        </ul>
+        <div class='submitButton'>
+            <button class='submit'>That's what I want!</button>
+        </div>
+    </section>
+    <section class='drinkResult hide'>
+        <h3>Here's ya drink! Rawr!</h3>
+    </section>
+    <script src='node_modules/jquery/dist/jquery.js'></script>
+    <!--    <script src='js/app.js'></script>-->
 </body>
+
 </html>

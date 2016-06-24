@@ -1,0 +1,93 @@
+/*Background image*/
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1440713017205-02904f447e26?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=47d15ca4458e1b6c7e747dd037ce33a2');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Title section*/
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: darkgoldenrod;
+    text-shadow: 4px 3px 3px black;
+    font-family: 'Pirata One', cursive;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Tillana', sans-serif;
+}
+
+
+/*Bartender question section*/
+
+.bartender-questions {
+    background-color: rgba(210, 208, 198, .5);
+    padding: 2em;
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Tillana', sans-serif;
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+.drinkType {
+    padding-right: 2.5em;
+}
+
+.drinkType li {
+    text-align: center;
+    list-style: none;
+    background-color: bisque;
+    color: crimson;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: solid 1px black;
+    margin: 1em;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.5em;
+}
+
+
+/*User submit button*/
+
+.submitButton {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+button {
+    padding: .5em;
+    font-family: 'Tillana', sans-serif;
+    background-color: goldenrod;
+    color: darkred;
+    border-style: none;
+    border: 1px solid black;
+}
+
+
+/*Drink Result*/
+
+.drinkResult {
+    z-index: 2;
+    font-family: 'Tillana', sans-serif;
+    margin-top: -34em;
+}
+
+.hide {
+    display: none;
+}
