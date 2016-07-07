@@ -51,7 +51,6 @@ h3 {
     text-align: center;
     list-style: none;
     background-color: bisque;
-    color: crimson;
     padding-top: 1em;
     padding-bottom: 1em;
     border: solid 1px black;
@@ -60,6 +59,19 @@ h3 {
     margin-right: auto;
     margin-left: auto;
     font-size: 1.5em;
+}
+
+.drinkType li:hover {
+    background-color: beige;
+}
+
+.drinkType a {
+    text-decoration: none;
+    color: crimson;
+}
+
+.drinkType li a:active {
+    background-color: burlywood;
 }
 
 
